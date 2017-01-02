@@ -17,7 +17,6 @@ class Solution(object):
         """
         x_binary = bin(x)[2:][::-1]
         y_binary = bin(y)[2:][::-1]
-        print x_binary, y_binary
         i = 0
         mismatch = 1
         length = min(len(x_binary),len(y_binary))
